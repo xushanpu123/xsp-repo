@@ -76,9 +76,9 @@ fn lexer_analysis(lex:String)->u32{
 
 
 fn main(){
-   println!("{}",lex_analysis(String::from("int")));
-   println!("{}",lex_analysis(String::from("2525"));
-   println!("{}",lex_analysis(String::from("tsinghua")));
+   println!("{}",lexer_analysis(String::from("int")));
+   println!("{}",lexer_analysis(String::from("2525"));
+   println!("{}",lexer_analysis(String::from("tsinghua")));
 }
 ```
 
